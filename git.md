@@ -14,7 +14,7 @@
 
 2. local에 계정 정보 저장하기
 * git config --global user.name minieeeee
-* git congig --global user.email oming4721@gmail.com
+* git config --global user.email oming4721@gmail.com
 * pc를 교체했거나, 윈도우를 재설치 했거나, 최초로 github와 연동할 때만 실행
 
 3. local repository 생성하기
@@ -26,4 +26,8 @@
 * origin이라는 이름으로 github의 원격 repostitory 주소를 등록하는 절차
 
 5. 프로젝트를 압축하여 local repository(.git 폴더)에 저장하기
+* git add .
 * git commit -m "Comment"
+
+6. 업로드하기
+* git push -u origin master
